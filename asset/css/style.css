@@ -17,6 +17,35 @@
     /* transform: rotate(45deg); */
 }
 
+.card, .card-body {
+    outline: none !important;
+    border: none !important;
+}
+
+.bg-nav {
+    background-color: #3A56E7;
+    transition: background-color 1s;
+}
+
+.btn-primary:hover,.btn-primary:focus,
+.btn-primary:active, 
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover {
+    box-shadow: none!important;
+    outline: 0;
+    fill: #6A54F7;
+}
+
+.form-control:hover,.form-control:focus,
+.form-control:active, 
+.form-control:active:focus:not(:disabled):not(.disabled),
+.form-control:focus, .form-control:active, .form-control:hover {
+    box-shadow: none!important;
+    outline: 0;
+    fill: #6A54F7;
+}
+
+
 /* Navbar */
 nav.navbar {
     font-size: 18px;
@@ -25,7 +54,7 @@ nav.navbar {
 /* Header */
 .header {
     padding: 50px 0 50px 0;
-    margin-top: 1%;
+    margin-top: 8%;
 }
 
 .img-header {
@@ -34,22 +63,131 @@ nav.navbar {
 }
 
 .title-header {
-    padding-top: 25%;
-    padding-left: 10%;
+    padding-top: 15%;
+    /* padding-left: 10%; */
     line-height: 55px;
+}
+
+.moto-header {
     font-style: italic;
+}
+
+/* VISI & MISI */
+.visi-misi {
+    margin-top: -50px;
+}
+
+.col-visi-misi {
+    padding-top: 5% !important;
+}
+
+/* About US */
+
+.about-us {
+    margin-top: -20%;
+    padding-top: 18%;
+    /* padding-bottom: 30px; */
+    background-color: #f7f7f7;
+}
+
+.img-about {
+    padding-top: 3%;
+    margin-left: 23%;
+}
+
+.txt-about {
+    text-align: justify !important;
+}
+
+
+/* Galeri */
+.gallery {
+    margin-bottom: 10%;
+}
+.img-galeri {
+    margin-top: 5%;
+    margin-left: 30%;
 }
 
 /* Jurusan */
 .jurusan {
-    margin-top: -50px !important;
+    /* margin-top: -50px !important; */
 }
 
 .img-jurusan {
-    padding-top: 20%;
+    padding-top: -4%;
 }
 
 .txt-jurusan {
     padding-top: 10px;
-    padding-left: 5%;
+    padding-left: 12%;
+}
+
+.list-jurusan {
+    margin-left: 12%;
+    width: 80% !important;
+}
+
+.bg-list-jurusan {
+    background-color: #EFEFEF;
+    color: #363636 !important;
+    border-radius: 15px !important;
+}
+
+.detail-jurusan {
+    margin-top: -8%;
+}
+
+.detail-list {
+    margin-top: 20px;
+}
+
+.card-active {
+    background-color: #fff;
+    box-shadow: 3px 5px 21px 0px rgba(156,146,146,0.53);
+    -webkit-box-shadow: 3px 5px 21px 0px rgba(156,146,146,0.53);
+    -moz-box-shadow: 3px 5px 21px 0px rgba(156,146,146,0.53);
+}
+
+.col-txt-jurusan {
+    margin-top: 7%;
+}
+
+.col-transition {
+    transition: all 1s inherit;
+}
+
+.tkj-img {
+    margin-left: 180px !important;
+}
+
+.telko-img {
+    margin-left: 80px;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 998px) {
+    .header {
+        margin-top: 2%;
+    }
+    .moto-header {
+        margin-bottom: 5%;
+    }
+    .detail-jurusan {
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (max-width: 469px) {
+    .detail-jurusan {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 393px) {
+    .detail-jurusan {
+        margin-left: 20px;
+    }
 }

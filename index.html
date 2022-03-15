@@ -17,6 +17,7 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/carousel.css">
 
     <!-- Fonts Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,10 +30,10 @@
 
 <body>
 
-    <div class="bg-header">
+    <div class="bg-header pt-3">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="./asset/img/tels.png" alt="" width="70" height="60">
@@ -43,7 +44,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -83,16 +84,17 @@
         <div class="header">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-sm-12 col-md-12 col-lg-4">
-                        <h1 class="fw-bold title-header">"We Are Not The Best, But We Want To Be Excellent"</h1>
+                    <div class="col-sm-12 col-md-12 col-lg-5">
+                        <h1 class="fw-bold text-center title-header">SMK TELEKOMUNIKASI TELESANDI BEKASI</h1>
+                        <h3 class="mt-5 text-center moto-header">"We Are Not The Best, But We Want To Be Excellent"</h3>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-7">
                         <img src="./asset/img/vector-header.png" alt="Header Vector" class="img-fluid img-header">
                     </div>
                 </div>
-                <!-- Waves -->
             </div>
         </div>
+        <!-- Waves -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="M0,96L48,90.7C96,85,192,75,288,90.7C384,107,480,149,576,144C672,139,768,85,864,85.3C960,85,1056,139,1152,160C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
@@ -100,22 +102,226 @@
         </svg>
     </div>
 
+    <!-- Visi Misi -->
 
-    <div class="jurusan">
+    <div class="visi-misi pb-4">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-sm-12 col-md-12 col-lg-6 bg-danger">
-                    <img src="./asset/img/rpl-img.png" class="img-fluid img-jurusan">
+                <div class="col-sm-12 col-md-12 col-lg-6 col-visi-misi">
+                    <img src="./asset/img/visi-misi.png" alt="visi-misi" class="img-fluid" width="90%">
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 bg-primary">
-                    <h3 class="fw-bold txt-jurusan">JURUSAN-JURUSAN DI TELESANDI</h3>
-                    <div class="row justify-content-center">
-                        <div class="col-sm-12 col-md-12 col-lg-10">
-                            <div class="card bg-dark">
-                                <div class="card-body">
-                                    <h3 class="text-white"></h3>
-                                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <h1 class="text-center fw-bold">VISI & MISI</h1>
+                    <center>
+                        <hr width="40%">
+                    </center>
+                    <div class="visi-detail pt-3">
+                        <h4 class="fw-bold">VISI : </h4>
+                        <h5>Menjadi Sekolah bermutu unggul dalam ilmu pengetahuan dan teknologi informasi berdasarkan
+                            IMTAQ serta berkarakter bangsa.</>
+                    </div>
+                    <div class="misi-detail pt-3">
+                        <h4 class="fw-bold">MISI : </h4>
+                        <h5>Menyelenggarakan pendidikan siswa/siswi di bidang : <br></h5>
+                        <h5>
+                            <ol>
+                                <li>Teknologi Telekomunikasi dan Informasi.</li>
+                                <li>Mengembangkan suasana akademis yang mendukung kebutuhan pengguna lulusan.</li>
+                                <li>Pemberdayaan laboratorium bahasa dan komputer untuk menunjang siswa mempunyai skill
+                                    memadai.</li>
+                                <li>Mengembangkan kurikulum sesuai kompetensi yang diharapkan oleh pengguna lulusan
+                                    Segala aktifitas dilandasi nilai-nilai agama.</li>
+                            </ol>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Waves -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1"
+            d="M0,160L40,186.7C80,213,160,267,240,261.3C320,256,400,192,480,149.3C560,107,640,85,720,106.7C800,128,880,192,960,202.7C1040,213,1120,171,1200,160C1280,149,1360,171,1400,181.3L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
+        </path>
+    </svg>
+
+    <div class="about-us">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <h1 class="text-center fw-bold">TENTANG KAMI</h1>
+                    <div class="about-detail mt-5">
+                        <h5 class="txt-about">
+                            <strong>SMK TELEKOMUNIKASI TELESANDI BEKASI</strong> <br> <br>
+
+                            SMK Telekomunikasi Telesandi Bekasi adalah salah satu sekolah menengah kejuruan di bidang
+                            teknologi informasi dan telekomunikasi di Kabupaten Bekasi. SMK Telekomunikasi Telesandi
+                            Bekasi merupakan salah satu Sekolah Standar Nasional (SSN). <br><br>
+
+
+                            SMK Telekomunikasi Telesandi Bekasi (TELS) merupakan sekolah yang didirikan dengan
+                            dilatarbelakangi oleh keinginan untuk meningkatkan kualitas pendidikan di bidang Teknologi
+                            di wilayah Bekasi, yang pada saat itu belum tersedia sekolah kejuruan bidang teknologi
+                            informasi dan telekomunikasi. SMK Telekomunikasi Telesandi Bekasi berdiri pada tanggal 2008
+                            dengan Akreditasi “A”. SMK Telekomunikasi Telesandi Bekasi berada dibawah naungan Yayasan
+                            Global Jaya Mandiri.
+
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <img src="./asset/img/about.png" alt="about us" width="60%" class="img-fluid img-about">
+                </div>
+            </div>
+        </div>
+        <!-- Waves -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,192L40,181.3C80,171,160,149,240,144C320,139,400,149,480,149.3C560,149,640,139,720,117.3C800,96,880,64,960,48C1040,32,1120,32,1200,58.7C1280,85,1360,139,1400,165.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </div>
+
+
+    <!-- Galery -->
+    <div class="gallery">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h1 class="fw-bold text-center mb-5">GALERI</h1>
+                    <!-- <img src="./asset/img/galeri.png" alt="galeri" width="50%" class="img-galeri"> -->
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="carousel">
+                        <div class="carousel-row">
+                            <div class="carousel-tile">
+                                <img src="./asset/img/1.jpg" class="shadow" width="100%">
                             </div>
+                            <div class="carousel-tile">
+                                <img src="./asset/img/2.jpg" class="shadow" width="100%">
+                            </div>
+                            <div class="carousel-tile">
+                                <img src="./asset/img/3.jpg" class="shadow" width="100%">
+                            </div>
+                            <div class="carousel-tile">
+                                <img src="./asset/img/keahlian.jpg" class="shadow" width="100%">
+                            </div>
+                            <div class="carousel-tile">
+                                <img src="./asset/img/3.jpg" class="shadow" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Jurusan -->
+
+    <div class="jurusan mb-4">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-sm-12 col-md-12 col-lg-6 col-transition" id="detail-rpl">
+                    <img src="./asset/img/rpl-img.png" class="img-fluid img-jurusan">
+                    <div class="container">
+                        <div class="detail-jurusan" id="detail">
+                            <h3 class="fw-bold text-center" id="paket">PAKET KEAHLIAN</h3>
+                            <h5 class="detail-list" id="detailList1">1. Perancangan System</h5>
+                            <h5 class="detail-list" id="detailList2">2. Database</h5>
+                            <h5 class="detail-list" id="detailList3">3. Pemrograman Beroreintasi Objek</h5>
+                            <h5 class="detail-list" id="detailList4">4. Pemrograman Web dan Mobile</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 col-transition d-none" id="detail-mm">
+                    <img src="./asset/img/mm-img.png" class="img-fluid img-jurusan" width="80%">
+                    <div class="container">
+                        <div class="detail-jurusan mt-3" id="detail">
+                            <h3 class="fw-bold text-center" id="paket">PAKET KEAHLIAN</h3>
+                            <h5 class="detail-list" id="detailList1">1. Desain Grafis Percetakan</h5>
+                            <h5 class="detail-list" id="detailList2">2. Desain Media Interaktif</h5>
+                            <h5 class="detail-list" id="detailList3">3. Teknik Animasi 2D dan 3D</h5>
+                            <h5 class="detail-list" id="detailList4">4. Teknik Pengolahan Audio & Video</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 col-transition d-none" id="detail-tkj">
+                    <img src="./asset/img/tkj-img.png" class="img-fluid img-jurusan tkj-img" width="40%">
+                    <div class="container">
+                        <div class="detail-jurusan mt-3" id="detail">
+                            <h3 class="fw-bold text-center" id="paket">PAKET KEAHLIAN</h3>
+                            <h5 class="detail-list" id="detailList1">1. Teknologi Jaringan Berbasis Luas</h5>
+                            <h5 class="detail-list" id="detailList2">2. Administrasi Infrasutruktur Jaringan</h5>
+                            <h5 class="detail-list" id="detailList3">3. Administrasi Sistem Jaringan </h5>
+                            <h5 class="detail-list" id="detailList4">4. Teknologi Layanan Jaringan</h5>
+                            <h5 class="detail-list" id="detailList5">5. Truobleshooting Jaringan</h5>
+                            <h5 class="detail-list" id="detailList6">6. Keamanan Jaringan</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 col-transition d-none" id="detail-telko">
+                    <img src="./asset/img/telko-img.png" class="img-fluid img-jurusan telko-img" width="50%">
+                    <div class="container">
+                        <div class="detail-jurusan mt-3" id="detail">
+                            <h3 class="fw-bold text-center" id="paket">PAKET KEAHLIAN</h3>
+                            <h5 class="detail-list" id="detailList1">1. Dasar Sistem Telekomunikasi</h5>
+                            <h5 class="detail-list" id="detailList2">2. Elektronika dan Microcontroller</h5>
+                            <h5 class="detail-list" id="detailList3">3. Transmisi Satelit [VSAT.IP]</h5>
+                            <h5 class="detail-list" id="detailList4">4. Transmisi Radio [BTS]</h5>
+                            <h5 class="detail-list" id="detailList5">5. Transmisi Fiber Optic [FTTH]</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 col-txt-jurusan">
+                    <h3 class="fw-bold txt-jurusan">JURUSAN-JURUSAN DI TELESANDI</h3>
+                    <div class="row justify-content-center pb-5">
+                        <div class="col-sm-12 col-md-12 col-lg-10">
+                            <a type="button" class="text-decoration-none mt-4 list-jurusan" id="rpl">
+                                <div class="card bg-list-jurusan card-active" id="Crpl">
+                                    <div class="card-body">
+                                        <h5 class="mt-2 user-select-none">&nbsp; <i class="fa-solid fa-code"></i> &nbsp;
+                                            &nbsp; Rekayasa Perangkat Lunak</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-10">
+                            <a type="button" class="text-decoration-none mt-4 list-jurusan" id="mm">
+                                <div class="card bg-list-jurusan" id="Cmm">
+                                    <div class="card-body">
+                                        <h5 class="mt-2 user-select-none">&nbsp; <i
+                                                class="fa-solid fa-clapperboard"></i> &nbsp; &nbsp; Multimedia</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-10">
+                            <a type="button" class="text-decoration-none mt-4 list-jurusan" id="tkj">
+                                <div class="card bg-list-jurusan" id="Ctkj">
+                                    <div class="card-body">
+                                        <h5 class="mt-2 user-select-none">&nbsp; <i class="fa-solid fa-wifi"></i> &nbsp;
+                                            &nbsp; Teknik Komputer dan Jaringan</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-10">
+                            <a type="button" class="text-decoration-none mt-4 list-jurusan" id="telko">
+                                <div class="card bg-list-jurusan" id="Ctelko">
+                                    <div class="card-body">
+                                        <h5 class="mt-2 user-select-none">&nbsp; <i
+                                                class="fa-solid fa-tower-broadcast"></i> &nbsp; &nbsp; Teknik
+                                            Telekomunikasi</h5>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -129,9 +335,59 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
         integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/768e0ea7cb.js" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel -->
+    <script src="./asset/js/owl.carousel.js"></script>
+
+    <script>
+        var owl = $('.owl-carousel');
+		$('.owl-carousel').owlCarousel({
+			loop: false,
+			margin: 10,
+			nav: true,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 3
+				},
+				1000: {
+					items: 4
+				}
+			}
+		})
+    </script>
+
+    <script>
+        $('#carousel-example').on('slide.bs.carousel', function (e) {
+			var $e = $(e.relatedTarget);
+			var idx = $e.index();
+			var itemsPerSlide = 5;
+			var totalItems = $('.carousel-item').length;
+
+			if (idx >= totalItems - (itemsPerSlide - 1)) {
+				var it = itemsPerSlide - (totalItems - idx);
+				for (var i = 0; i < it; i++) {
+					// append slides to end
+					if (e.direction == "left") {
+						$('.carousel-item').eq(i).appendTo('.carousel-inner');
+					}
+					else {
+						$('.carousel-item').eq(0).appendTo('.carousel-inner');
+					}
+				}
+			}
+		});
+    </script>
+
     <!-- My JS -->
     <script src="./asset/js/mian.js"></script>
 
