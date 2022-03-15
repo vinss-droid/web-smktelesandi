@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+/* ALL */
+.bg-header {
+    background-color: #f7f7f7;
+    /* background-image: linear-gradient(to right top, #f5f5f5, #f7f7f7, #fafafa, #fcfcfc, #ffffff); */
+}
+
+.img-waves-header {
+    position: absolute !important;
+    z-index: 1;
+    /* left: 30%; */
+    /* transform: rotate(45deg); */
+}
+
+/* Navbar */
+nav.navbar {
+    font-size: 18px;
+}
+
+/* Header */
+.header {
+    padding: 50px 0 50px 0;
+    margin-top: 1%;
+}
+
+.img-header {
+    width: 100%;
+    padding-left: 30%;
+}
+
+.title-header {
+    padding-top: 25%;
+    padding-left: 10%;
+    line-height: 55px;
+    font-style: italic;
+}
+
+/* Jurusan */
+.jurusan {
+    margin-top: -50px !important;
+}
+
+.img-jurusan {
+    padding-top: 20%;
+}
+
+.txt-jurusan {
+    padding-top: 10px;
+    padding-left: 5%;
+}
